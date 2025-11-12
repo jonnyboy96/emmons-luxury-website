@@ -1,0 +1,423 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <!--
+    EMMONS LUXURY — ABOUT US PAGE (SEO + AEO READY)
+    
+    TODO LIST:
+      - TODO: Replace CANONICAL_URL with your live URL
+      - TODO: Verify phone/email correct (404-482-3687, drive@emmonsluxury.com)
+  -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Luxury Car Rental Atlanta | Emmons Luxury</title>
+  <meta name="description" content="Learn about Emmons Luxury, Atlanta's premier luxury and exotic car rental company. Discover our mission, values, fleet, and commitment to delivering exceptional experiences. Serving all Metro Atlanta areas since 2024.">
+  <link rel="canonical" href="https://www.emmonsluxurycarrental.com/about-us"> <!-- TODO: CANONICAL_URL -->
+
+  <!-- Performance: Preconnect -->
+  <link rel="preconnect" href="https://www.emmonsluxurycarrental.com" crossorigin>
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="About Us - Luxury Car Rental Atlanta | Emmons Luxury">
+  <meta property="og:description" content="Learn about Emmons Luxury, Atlanta's premier luxury and exotic car rental company. Discover our mission, values, and commitment to exceptional service.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.emmonsluxurycarrental.com/about-us">
+  <meta property="og:image" content="https://storage.googleapis.com/msgsndr/wH2l3WqoQB0m8lZuKmP2/media/690b94f26917d296569eaa7b.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="https://storage.googleapis.com/msgsndr/wH2l3WqoQB0m8lZuKmP2/media/690b94f26917d296569eaa7b.jpg">
+
+  <!-- Additional SEO Meta Tags -->
+  <meta name="geo.region" content="US-GA">
+  <meta name="geo.placename" content="Atlanta">
+  <meta name="geo.position" content="33.7490;-84.3880">
+  <meta name="ICBM" content="33.7490, -84.3880">
+  <meta name="author" content="Emmons Luxury">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <style>
+    /* Minimal, performance-friendly styles (system font, no heavy frameworks) */
+    :root{
+      --bg:#0b0b0c; --ink:#fff; --muted:#b8b8c2; --brand:#d2ab6f; --accent:#111; --ok:#16a34a;
+      --maxw:1200px; --card:#0f0f12; --line:#1c1c1f;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:var(--brand);text-decoration:none;transition:opacity 0.2s}
+    a:hover{opacity:0.8}
+    header,main,footer{width:100%}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:clamp(12px,2vw,24px)}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0}
+    .logo{font-weight:700;letter-spacing:.04em;font-size:18px;display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);transition:opacity 0.2s}
+    .logo img{height:60px;width:auto;object-fit:contain;display:block}
+    .logo:hover{opacity:0.9}
+    .logo-text{display:none}
+    nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    nav a{margin:0;color:var(--muted);font-size:14px}
+    nav a:hover{color:var(--ink)}
+    nav a.active{color:var(--brand)}
+    .hero{position:relative;overflow:hidden;border-bottom:1px solid #222;min-height:300px;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg, rgba(0,0,0,0.8), rgba(20,20,20,0.7)), url('https://storage.googleapis.com/msgsndr/wH2l3WqoQB0m8lZuKmP2/media/690b94f26917d296569eaa7b.jpg');background-size:cover;background-position:center}
+    .hero-content{position:relative;z-index:1;padding:40px 20px;max-width:800px}
+    .hero h1{font-size:clamp(32px,5vw,48px);margin:.2em 0;line-height:1.2;font-weight:700;text-shadow:2px 2px 8px rgba(0,0,0,0.8)}
+    .hero p{font-size:clamp(18px,2.5vw,20px);color:var(--muted);margin:1em 0 2em;line-height:1.6}
+    h2{font-size:clamp(24px,3vw,36px);margin:.8em 0 .4em;font-weight:700}
+    h3{font-size:20px;margin:.5em 0;font-weight:600}
+    .about-section{padding:60px 0;background:var(--bg)}
+    .about-content{max-width:900px;margin:0 auto}
+    .about-intro{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:48px;margin-bottom:40px;text-align:center}
+    .about-intro h2{font-size:32px;font-weight:700;margin-bottom:16px;color:var(--brand);border:none;padding:0}
+    .about-intro p{color:var(--muted);line-height:1.8;font-size:18px;margin-bottom:16px}
+    .about-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:32px;margin-bottom:24px}
+    .about-card h3{font-size:24px;font-weight:700;margin-top:0;margin-bottom:16px;color:var(--brand);border-bottom:2px solid var(--line);padding-bottom:12px}
+    .about-card p{color:var(--muted);line-height:1.8;margin-bottom:16px}
+    .about-card ul,.about-card ol{margin:16px 0;padding-left:24px;color:var(--muted);line-height:1.8}
+    .about-card li{margin-bottom:8px}
+    .about-card strong{color:var(--ink);font-weight:600}
+    .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin:40px 0}
+    .stat-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;text-align:center}
+    .stat-number{font-size:36px;font-weight:700;color:var(--brand);margin-bottom:8px}
+    .stat-label{font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+    .direct-answer{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:16px;padding:32px;margin:32px 0}
+    .direct-answer h3{color:var(--brand);margin-top:0;margin-bottom:16px;border:none;padding:0;font-size:24px}
+    .direct-answer p{color:var(--ink);font-size:17px;line-height:1.9;margin-bottom:0;font-weight:400}
+    .service-areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+    .service-area-tag{padding:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;text-align:center;font-size:14px;color:var(--muted)}
+    .footer{background:#0a0a0a;border-top:1px solid #1b1b1b;margin-top:32px;padding:40px 0 24px}
+    .footer-logo{margin-bottom:32px;text-align:center}
+    .footer-logo img{height:80px;width:auto;object-fit:contain;opacity:0.8;transition:opacity 0.2s}
+    .footer-logo img:hover{opacity:1}
+    .footer-logo a{display:inline-block;text-decoration:none}
+    .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px;padding-bottom:32px;border-bottom:1px solid var(--line)}
+    .footer-section h3{font-size:16px;margin:0 0 16px;font-weight:600;color:var(--ink)}
+    .footer-section p,.footer-section a{font-size:14px;color:var(--muted);margin:8px 0;display:block;text-decoration:none}
+    .footer-section a:hover{color:var(--brand)}
+    .footer-bottom{text-align:center;font-size:12px;color:var(--muted);margin-top:24px}
+    .sr-only{position:absolute;left:-10000px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;border-radius:14px;background:var(--brand);color:#111;font-weight:700;border:none;cursor:pointer;font-size:16px;text-decoration:none;transition:all 0.2s;margin-top:16px}
+    .btn:hover{opacity:0.9;transform:translateY(-2px);box-shadow:0 4px 12px rgba(210,171,111,0.3)}
+    @media (max-width:768px){
+      .topbar{flex-direction:column;align-items:flex-start;gap:12px}
+      nav{flex-wrap:wrap;gap:12px}
+      .hero{min-height:250px}
+      .hero-content{padding:20px}
+      .logo img{height:48px}
+      .footer-logo img{height:60px}
+      .footer-grid{grid-template-columns:1fr;gap:24px}
+      .about-content{padding:0}
+      .about-intro,.about-card{padding:32px 24px}
+      .stats-grid{grid-template-columns:repeat(2,1fr);gap:16px}
+    }
+  </style>
+
+  <!-- GLOBAL SCHEMA: Organization + LocalBusiness + WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "name":"Emmons Luxury",
+        "url":"https://www.emmonsluxurycarrental.com",
+        "logo":"https://www.emmonsluxurycarrental.com/images/emmons-luxury-logo.png",
+        "description":"Premier luxury and exotic car rental company serving Metro Atlanta. Offering BMW M3, Corvette C8, Lamborghini, McLaren, Bentley and more. Starting at $499/day with delivery to all Metro Atlanta areas.",
+        "foundingDate":"2024",
+        "founder":{
+          "@type":"Person",
+          "name":"Jon Emmons"
+        },
+        "address":{
+          "@type":"PostalAddress",
+          "streetAddress":"999 Peachtree St NE Suite 400",
+          "addressLocality":"Atlanta",
+          "addressRegion":"GA",
+          "postalCode":"30309",
+          "addressCountry":"US"
+        },
+        "contactPoint":{
+          "@type":"ContactPoint",
+          "telephone":"+1-404-482-3687",
+          "contactType":"Customer Service",
+          "email":"drive@emmonsluxury.com",
+          "areaServed":"US-GA",
+          "availableLanguage":"English"
+        },
+        "sameAs":[
+          "https://www.instagram.com/emmonsluxury",
+          "https://www.youtube.com/@EmmonsLuxury",
+          "https://www.linkedin.com/company/emmons-luxury"
+        ]
+      },
+      {
+        "@type":"LocalBusiness",
+        "name":"Emmons Luxury",
+        "alternateName":"Emmons Mobility LLC",
+        "url":"https://www.emmonsluxurycarrental.com",
+        "logo":"https://www.emmonsluxurycarrental.com/images/emmons-luxury-logo.png",
+        "image":"https://storage.googleapis.com/msgsndr/wH2l3WqoQB0m8lZuKmP2/media/690b94f26917d296569eaa7b.jpg",
+        "description":"Premier luxury and exotic car rental company in Metro Atlanta. Rent BMW M3, Corvette C8, Lamborghini, McLaren, Bentley and more. Starting at $499/day. 5.0 rating with 7+ verified reviews.",
+        "areaServed":["Atlanta GA","Metro Atlanta","Buckhead","Midtown","Downtown","West Midtown","Sandy Springs","Alpharetta","Milton","Roswell","Johns Creek","Dunwoody","Vinings","Smyrna","Marietta","Decatur","Brookhaven","Peachtree City","ATL Airport"],
+        "email":"mailto:drive@emmonsluxury.com",
+        "telephone":"+1-404-482-3687",
+        "priceRange":"$$$",
+        "address":{
+          "@type":"PostalAddress",
+          "streetAddress":"999 Peachtree St NE Suite 400",
+          "addressLocality":"Atlanta",
+          "addressRegion":"GA",
+          "postalCode":"30309",
+          "addressCountry":"US"
+        },
+        "geo":{
+          "@type":"GeoCoordinates",
+          "latitude":33.7490,
+          "longitude":-84.3880
+        },
+        "aggregateRating":{
+          "@type":"AggregateRating",
+          "ratingValue":"5",
+          "reviewCount":"7",
+          "bestRating":"5",
+          "worstRating":"1"
+        },
+        "openingHoursSpecification":{
+          "@type":"OpeningHoursSpecification",
+          "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens":"00:00",
+          "closes":"23:59"
+        }
+      },
+      {
+        "@type":"WebSite",
+        "url":"https://www.emmonsluxurycarrental.com",
+        "name":"Emmons Luxury",
+        "potentialAction":{
+          "@type":"SearchAction",
+          "target":"https://www.emmonsluxurycarrental.com/search?q={query}",
+          "query-input":"required name=query"
+        }
+      }
+    ]
+  }
+  </script>
+
+</head>
+
+<body>
+
+  <header class="wrap topbar" role="banner">
+    <a href="index.html" class="logo" aria-label="Emmons Luxury Home">
+      <img src="images/emmons-luxury-logo.png" alt="Emmons Luxury" width="180" height="60" loading="eager">
+      <span class="logo-text sr-only">Emmons Luxury</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="index.html#vehicles">Vehicles</a>
+      <a href="mailto:drive@emmonsluxury.com">Contact Us</a>
+      <a href="faq.html">FAQ</a>
+      <a href="tel:4044823687" style="color:var(--brand);font-weight:600">📞 (404) 482-3687</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" aria-label="About Us Hero section">
+      <div class="hero-content">
+        <h1>About Emmons Luxury</h1>
+        <p>Atlanta's Premier Luxury & Exotic Car Rental Experience</p>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" aria-label="About Us content">
+      <div class="wrap">
+        <div class="about-content">
+          
+          <!-- Introduction -->
+          <div class="about-intro">
+            <h2>Who We Are</h2>
+            <p><strong>Emmons Luxury is Atlanta's premier luxury and exotic car rental company, specializing in delivering exceptional driving experiences throughout Metro Atlanta. Founded in 2024, we offer a curated fleet of luxury and exotic vehicles including BMW M3, Corvette C8, Lamborghini, McLaren, and Bentley, starting at $499 per day.</strong></p>
+            <p>We are committed to providing unparalleled service, meticulously maintained vehicles, and seamless booking experiences for clients across all Metro Atlanta areas including Buckhead, Midtown, Downtown, Sandy Springs, Alpharetta, Roswell, Milton, Johns Creek, Dunwoody, Vinings, Smyrna, Marietta, Decatur, Brookhaven, Peachtree City, and ATL Airport.</p>
+          </div>
+
+          <!-- Quick Stats (AEO-Optimized) -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">8+</div>
+              <div class="stat-label">Luxury Vehicles</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">5.0</div>
+              <div class="stat-label">Customer Rating</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">19</div>
+              <div class="stat-label">Metro Atlanta Areas</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">$499</div>
+              <div class="stat-label">Starting Daily Rate</div>
+            </div>
+          </div>
+
+          <!-- Our Mission -->
+          <div class="about-card">
+            <h3>Our Mission</h3>
+            <p>At Emmons Luxury, our mission is to provide exceptional luxury and exotic car rental experiences that exceed our clients' expectations. We believe that every journey should be memorable, whether you're celebrating a special occasion, attending a business event, or simply treating yourself to the ultimate driving experience.</p>
+            <p>We are dedicated to:</p>
+            <ul>
+              <li><strong>Excellence in Service:</strong> Providing personalized, attentive service from booking to vehicle return</li>
+              <li><strong>Premium Fleet:</strong> Maintaining a curated collection of luxury and exotic vehicles in pristine condition</li>
+              <li><strong>Accessibility:</strong> Making luxury car rentals accessible to all Metro Atlanta residents and visitors</li>
+              <li><strong>Safety & Reliability:</strong> Ensuring all vehicles meet the highest safety and maintenance standards</li>
+              <li><strong>Customer Satisfaction:</strong> Building lasting relationships through exceptional experiences</li>
+            </ul>
+          </div>
+
+          <!-- Why Choose Us -->
+          <div class="direct-answer">
+            <h3>Why Choose Emmons Luxury?</h3>
+            <p><strong>Emmons Luxury stands apart with our exceptional 5.0 customer rating, curated fleet of 8+ luxury vehicles, comprehensive Metro Atlanta delivery coverage spanning 19 areas, competitive pricing starting at $499 per day, and personalized service that ensures every rental experience exceeds expectations.</strong></p>
+          </div>
+
+          <!-- Our Fleet -->
+          <div class="about-card">
+            <h3>Our Premium Fleet</h3>
+            <p>We carefully curate our fleet to offer the finest selection of luxury and exotic vehicles in Atlanta. From high-performance sports cars to elegant luxury sedans and SUVs, each vehicle is:</p>
+            <ul>
+              <li><strong>Meticulously Maintained:</strong> Regular servicing, detailing, and inspection to ensure peak performance</li>
+              <li><strong>Fully Insured:</strong> Comprehensive coverage for your peace of mind</li>
+              <li><strong>Premium Condition:</strong> Spotless interiors and exteriors for every rental</li>
+              <li><strong>Latest Models:</strong> Featuring current-year and recent-model vehicles</li>
+            </ul>
+            <p>Our fleet includes:</p>
+            <ul>
+              <li><strong>Sports Cars:</strong> Corvette C8, BMW M3 Competition, Mercedes-AMG GT43</li>
+              <li><strong>Supercars:</strong> Lamborghini Huracán, Lamborghini Huracán Evo Spyder, McLaren 570GT</li>
+              <li><strong>Luxury SUVs:</strong> Lamborghini Urus, Bentley Bentayga</li>
+            </ul>
+            <p><a href="index.html#vehicles" class="btn">View Our Fleet</a></p>
+          </div>
+
+          <!-- Service Areas -->
+          <div class="about-card">
+            <h3>Service Areas</h3>
+            <p><strong>Emmons Luxury delivers luxury and exotic vehicles to all Metro Atlanta areas including Buckhead, Midtown, Downtown, Sandy Springs, Alpharetta, Roswell, Milton, Johns Creek, Dunwoody, Vinings, Smyrna, Marietta, Decatur, Brookhaven, Peachtree City, and ATL Airport (Hartsfield-Jackson Atlanta International Airport).</strong></p>
+            <div class="service-areas">
+              <div class="service-area-tag">Buckhead</div>
+              <div class="service-area-tag">Midtown</div>
+              <div class="service-area-tag">Downtown</div>
+              <div class="service-area-tag">Sandy Springs</div>
+              <div class="service-area-tag">Alpharetta</div>
+              <div class="service-area-tag">Roswell</div>
+              <div class="service-area-tag">Milton</div>
+              <div class="service-area-tag">Johns Creek</div>
+              <div class="service-area-tag">Dunwoody</div>
+              <div class="service-area-tag">Vinings</div>
+              <div class="service-area-tag">Smyrna</div>
+              <div class="service-area-tag">Marietta</div>
+              <div class="service-area-tag">Decatur</div>
+              <div class="service-area-tag">Brookhaven</div>
+              <div class="service-area-tag">Peachtree City</div>
+              <div class="service-area-tag">ATL Airport</div>
+            </div>
+            <p>We offer convenient delivery and pickup services throughout Metro Atlanta, making it easy to enjoy a luxury vehicle wherever you are in the Atlanta area.</p>
+          </div>
+
+          <!-- Our Values -->
+          <div class="about-card">
+            <h3>Our Values</h3>
+            <p>At Emmons Luxury, our values guide everything we do:</p>
+            <ul>
+              <li><strong>Integrity:</strong> Honest, transparent pricing and clear communication</li>
+              <li><strong>Excellence:</strong> Maintaining the highest standards in vehicle condition and service</li>
+              <li><strong>Customer Focus:</strong> Putting our clients' needs and satisfaction first</li>
+              <li><strong>Reliability:</strong> Delivering on our promises, every time</li>
+              <li><strong>Passion:</strong> Genuine enthusiasm for luxury automobiles and exceptional experiences</li>
+            </ul>
+          </div>
+
+          <!-- What Makes Us Different -->
+          <div class="direct-answer">
+            <h3>What Makes Emmons Luxury Different?</h3>
+            <p><strong>Emmons Luxury distinguishes itself through our personalized service approach, meticulously maintained premium fleet, comprehensive Metro Atlanta coverage spanning 19 areas, competitive pricing starting at $499 per day, exceptional 5.0 customer rating with 7+ verified reviews, and unwavering commitment to making every rental experience exceptional from booking to vehicle return.</strong></p>
+          </div>
+
+          <!-- Contact & Booking -->
+          <div class="about-card">
+            <h3>Ready to Experience Luxury?</h3>
+            <p>Whether you're planning a special occasion, business event, or simply want to experience the thrill of driving a luxury or exotic vehicle, Emmons Luxury is here to make it happen.</p>
+            <p><strong>To book a luxury car rental with Emmons Luxury, call (404) 482-3687, email drive@emmonsluxury.com, or visit our website to view available vehicles and submit a booking request. We confirm reservations within 24 hours and coordinate delivery or pickup at your preferred Metro Atlanta location.</strong></p>
+            <p>Our team is available to answer questions, provide recommendations, and ensure your rental experience is seamless from start to finish.</p>
+            <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:24px">
+              <a href="tel:4044823687" class="btn">Call (404) 482-3687</a>
+              <a href="mailto:drive@emmonsluxury.com" class="btn" style="background:transparent;border:2px solid var(--brand);color:var(--brand)">Email Us</a>
+              <a href="index.html#vehicles" class="btn" style="background:transparent;border:2px solid var(--brand);color:var(--brand)">View Vehicles</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <!-- Footer Logo -->
+      <div class="footer-logo">
+        <a href="index.html" aria-label="Emmons Luxury Home">
+          <img src="images/emmons-luxury-logo.png" alt="Emmons Luxury" width="240" height="80" loading="lazy">
+        </a>
+      </div>
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>COMPANY</h3>
+          <a href="index.html#vehicles">Vehicles</a>
+          <a href="services.html">Services</a>
+          <a href="about-us.html">About Us</a>
+          <a href="mailto:drive@emmonsluxury.com">Contact</a>
+        </div>
+        <div class="footer-section">
+          <h3>LEGAL</h3>
+          <a href="terms-of-service.html">Terms of Service</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-section">
+          <h3>ADDRESS</h3>
+          <p>999 Peachtree St NE Suite 400<br/>Atlanta Georgia 30309</p>
+          <p><a href="tel:4044823687">(404) 482-3687</a></p>
+          <p><a href="mailto:drive@emmonsluxury.com">drive@emmonsluxury.com</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>FOLLOW US</h3>
+          <a href="https://www.instagram.com/emmonsluxury" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=100085271599163" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.youtube.com/@EmmonsLuxury" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://www.linkedin.com/company/emmons-luxury" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="yr"></span> Emmons Luxury. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>
+
